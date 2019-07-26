@@ -7,6 +7,7 @@ body, html {
 section {
   width: 50%;
   margin: auto;
+  background-color: floralwhite;
 }
 
 h1 {
@@ -26,7 +27,11 @@ p {
 
 /*---------- TABLET ----------*/
 
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
+ section {
+   background-color: white;
+ }
+
  h1 {
    color: #02cbd2;
  }
@@ -42,6 +47,10 @@ p {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  section {
+    background-color: white;
+  }
+
   h1 {
     color: 	#6e4b61;
   }
